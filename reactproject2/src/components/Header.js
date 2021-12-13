@@ -1,8 +1,12 @@
 import React from "react"
+import Logo from "../images/logo.jpg"
 
 function Header() {
     return(
-        <h2>header</h2>
+        <nav>
+            <img className="nav--logo" src={Logo} />
+            <p> Carte de visite</p>
+        </nav>
     )
 }
 
