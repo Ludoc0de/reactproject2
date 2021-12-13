@@ -6,7 +6,7 @@ function Main(){
     return(
         <section>
             <h1>Main</h1>
-            <img src={Heroe} />
+            <img className="hero--image" src={Heroe} />
         </section>
         
     )

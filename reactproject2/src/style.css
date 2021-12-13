@@ -15,7 +15,7 @@ section {
   justify-content: space-between;
 }
 
-section > img {
+.hero--image {
   max-width: 700px;
 
 }
