@@ -8,3 +8,14 @@ nav {
   max-width: 50px;
   padding-right: 10px;
 }
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section > img {
+  max-width: 700px;
+
+}
