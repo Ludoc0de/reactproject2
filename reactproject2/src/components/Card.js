@@ -15,8 +15,8 @@ function Card(props) {
             <ul>
                 <li>{props.firstSkill}</li>
                 <li>{props.secondSkill}</li>
-                <li>{props.thirdSkill}</li>
-                <li>{props.fourthSkill}</li>
+                {props.thirdSkill && <li>{props.thirdSkill}</li>}
+                {props.fourthSkill && <li>{props.fourthSkill}</li>}
             </ul>  
         </div>
     )
