@@ -5,7 +5,10 @@ import Heroe from "../images/DrawKit.png"
 function Main(){
     return(
         <section>
-            <h1>Main</h1>
+            <span className="hero--subsection">
+                <h1 className="hero--title">Carte de visite digital</h1>
+                <p className="hero--text">Création de votre carte professionel</p>  
+            </span>
             <img className="hero--image" src={Heroe} />
         </section>
         
