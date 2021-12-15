@@ -6,15 +6,17 @@ nav {
 
 .nav--logo {
   max-width: 50px;
-  padding-right: 10px;
+  padding: 0 10px 0 150px;
 }
 
 section {
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
+.hero--subsection {
+  margin-top: 130px;
+}
 .hero--image {
   max-width: 700px;
 }
