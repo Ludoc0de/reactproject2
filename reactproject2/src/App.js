@@ -1,6 +1,7 @@
 import './style.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Card from './components/Card'
 import Footer from './components/Footer'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <Card />
       {/* <Footer /> */}
     </div>
   );
