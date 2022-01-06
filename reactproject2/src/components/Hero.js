@@ -1,5 +1,5 @@
 import React from "react"
-import HeroImg from "../images/DrawKit.png"
+// import HeroImg from "../images/DrawKit.png"
 
 
 function Hero(){
@@ -7,9 +7,17 @@ function Hero(){
         <section>
             <span className="hero--subsection">
                 <h1 className="hero--title">Carte de visite digital</h1>
-                <p className="hero--text">Création de votre carte professionel</p>  
+                <p className="hero--text">Créer votre carte digital professionel</p> 
+                <button>Contact</button>
             </span>
-            <img className="hero--image" src={HeroImg} />
+            <div className="hero--image">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            {/* <img className="hero--image" src={HeroImg} /> */}
         </section>
         
     )
