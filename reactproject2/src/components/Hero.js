@@ -12,12 +12,24 @@ function Hero(){
             </span>
             <div className="hero--image">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <a href="#">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i className="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i className="fab fa-github"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            {/* <img className="hero--image" src={HeroImg} /> */}
+        {/* <img className="hero--image" src={HeroImg} /> */}
         </section>
         
     )
