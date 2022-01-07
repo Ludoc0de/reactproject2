@@ -36,6 +36,7 @@ section {
 .hero--image {
   width: 20em;
   height: 30em;
+  border: 1px black solid;
   border-radius: 1em;
   background: 7em 2em url("./images/logo-black.png");
   background-size: 12em;
@@ -49,14 +50,15 @@ section {
 }
 
 ul {
-  margin-top: 16em;
+  margin-top: 18em;
 }
 
 li {
   list-style: none;
-  width: 3em;
-  height: 3em;
-  background: white;
-  border-radius: 50%;
-  margin-top: 1em;
+  margin-top: 1.5em;
+}
+
+.fab {
+  color: black;
+  font-size: 2.5em;
 }
