@@ -1,11 +1,22 @@
 import React from "react"
-import Logo from "../images/logo.jpg"
+import Logo from "../images/default-monochrome-black.svg"
 
 function Header() {
     return(
         <nav>
             <img className="nav--logo" src={Logo} />
-            <p> Carte de visite</p>
+            <ul>
+                <li className="nav--list">
+                    <a className="nav--link">Cartes de visite</a>
+                </li>
+                <li className="nav--list">
+                    <a className="nav--link">Nos services</a>
+                </li>
+                <li className="nav--list">
+                    <a className="nav--link">Contact</a>
+                </li>
+            </ul>
+            
         </nav>
     )
 }
