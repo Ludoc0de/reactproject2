@@ -28,8 +28,6 @@ function Hero(){
                     </a>
                 </li>
             </ul>
-            
-        {/* <img className="hero--image" src={HeroImg} /> */}
         </section>
         
     )
