@@ -28,20 +28,25 @@ li {
   font-weight: bold;
 }
 
-section {
+.hero {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   height:90vh;
-  width: 100vw;
-  /* background-color: aqua; */
+  width: 98vw;
 }
 
 .hero--subsection {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin: 0 2em 10em 2em;
+  /* justify-content: flex-star; */
+  align-items: flex-start;
+  /* margin: 0 2em 10em 2em; */
+}
+
+h1 {
+  font-size: 70px;
+  margin:0;
 }
 
 .hero--subsection > button {
@@ -53,6 +58,16 @@ section {
 }
 
 .hero--image {
+  width: 40em;
+  height: 45em;
+  background: url("./images/logo-black.png");
+  background-size: 35em;
+  background-repeat: no-repeat;
+  margin: 10em 0 0 -10em;
+}
+
+/*card design*/
+/* .hero--image {
   width: 20em;
   height: 30em;
   border: 1px black solid;
@@ -60,16 +75,16 @@ section {
   background: 7em 2em url("./images/logo-black.png");
   background-size: 12em;
   background-repeat: no-repeat;
-  /* background-color: black; */
+  background-color: pink;
   margin-bottom: 8em;
-}
+} */
 
 .hero--text {
   font-size: 2em;
 }
 
-div > ul {
-  margin-top: 18em;
+.hero--unlist {
+  margin: 22.5em 0 0 -12em;
 }
 
 .hero--list {
@@ -78,5 +93,5 @@ div > ul {
 
 .fab {
   color: black;
-  font-size: 2.5em;
+  font-size: 2em;
 }
