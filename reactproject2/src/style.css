@@ -12,14 +12,17 @@ nav {
 section {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
+  height:90vh;
+  width: 100vw;
+  /* background-color: aqua; */
 }
 
 .hero--subsection {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-left: 2em;
-  margin-bottom: 10em;
+  margin: 0 2em 10em 2em;
 }
 
 .hero--subsection > button {
@@ -31,27 +34,29 @@ section {
 }
 
 .hero--image {
-  /* max-width: 800px; */
   width: 20em;
   height: 30em;
   border-radius: 1em;
-  background-color: pink;
-  margin-top: 5em;
+  background: 7em 2em url("./images/logo-black.png");
+  background-size: 12em;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  margin-bottom: 8em;
 }
 
 .hero--text {
   font-size: 2em;
 }
 
-/* ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-} */
+ul {
+  margin-top: 16em;
+}
 
 li {
+  list-style: none;
   width: 3em;
   height: 3em;
   background: white;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-top: 1em;
 }
