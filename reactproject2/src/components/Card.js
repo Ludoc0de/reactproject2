@@ -2,8 +2,9 @@ import React from "react";
 
 function Card(props) {
     return(
-         <div className="card">
-            <img src="" className="card--img"/>
+        <div className="card--subsection">
+            {/* mettre l'image */}
+            <img src={props.image} className="card--img"/>
             <h2 className="card--title"> {props.title} </h2>
             <h3>{props.description}</h3>
             <p>{props.website}</p>
