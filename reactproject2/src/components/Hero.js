@@ -4,7 +4,7 @@ import React from "react"
 
 function Hero(){
     return(
-        <section className="hero">
+        <section className="hero" style={{opacity:0}}>
             <span className="hero--subsection">
                 <h1 className="hero--title">Carte de visite digital</h1>
                 <p className="hero--text">Créer votre carte digital professionel</p> 
