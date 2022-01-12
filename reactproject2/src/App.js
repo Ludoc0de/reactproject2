@@ -8,7 +8,8 @@ import data from './data'
 function App() {
   const cards = data.map(item => {
     return(
-      <Card 
+      <Card
+        key={item.id} 
         image= {item.image}
         title={item.title}
         description={item.description}
@@ -17,6 +18,12 @@ function App() {
         secondSkill={item.skill.second}
         thirdSkill={item.skill.third}
         fourthSkill={item.skill.fourth}
+        firstContact={item.contact.first}
+        secondContact={item.contact.second}
+        thirdContact={item.contact.third}
+        fourthContact={item.contact.fourth}
+        fifthContact={item.contact.fifth}
+        // {...item}
       />
     )
   })
