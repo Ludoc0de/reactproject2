@@ -25,7 +25,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      {cards}
+      <section className='card'>
+        {cards}
+      </section>
       {/* <Footer /> */}
     </div>
   );
