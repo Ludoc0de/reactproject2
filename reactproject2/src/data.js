@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        image: "./images/logo-black.png",
+        image: "./images/logo.jpg",
         title: "Neographe",
         description: "Création de site web",
         website: "www.neographe-digital.com",
@@ -11,10 +11,17 @@ export default [
             third: "Réponse sous 48h",
             fourth: ""
         },
+        contact: {
+            first: "test@mail.com",
+            second: "",
+            third: "#",
+            fourth: "#",
+            fifth: "#",
+        },
     },
     {
         id: 2,
-        image: "carrelage1.jpg",
+        cardImg: "./images/logo-white.png",
         title: "Entreprise N",
         description: "entreprise",
         website: "",
@@ -23,6 +30,13 @@ export default [
             second: "2",
             third: "3",
             fourth: ""
+        },
+        contact: {
+             first: "test@mail.com",
+            second: "010202",
+            third: "#",
+            fourth: "#",
+            fifth: "",
         },
 
     }
