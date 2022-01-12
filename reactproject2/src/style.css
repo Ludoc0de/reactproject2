@@ -32,7 +32,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:90vh;
+  height:100vh;
   width: 98vw;
 }
 
@@ -94,4 +94,17 @@ h1 {
 .fab {
   color: black;
   font-size: 2em;
+}
+
+.card {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height:90vh;
+  width: 98vw;*/
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height:100vh;
+  width: 98vw;
+  /* background-color: pink; */
 }
