@@ -5,11 +5,11 @@ function Card(props) {
     let test = props.image
     
     return(
-        <div className="card--subsection" style={{opacity:0}}>
+        <div className="card--subsection" style={{opacity:1}}>
             
             <img src="" className="card--img" />
 
-            <h2 className="card--title"> {props.title} </h2>
+            <h2 className="card--title" name="test"> {props.title} </h2>
             <h3>{props.description}</h3>
             <p>{props.website}</p>
             {/* <div className="card--buttons">
