@@ -103,8 +103,8 @@ h1 {
   height:90vh;
   width: 98vw;*/
 
-  position: absolute;
-  top: 5em;
+  /* position: absolute;
+  top: 5em; */
 
   display: grid;
   grid-template-columns: auto auto auto auto;
