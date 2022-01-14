@@ -7,7 +7,7 @@ function Header() {
             <img className="nav--logo" src={Logo} />
             <ul>
                 <li className="nav--list">
-                    <a className="nav--link" href="test">Cartes de visite</a>
+                    <a className="nav--link">Cartes de visite</a>
                 </li>
                 <li className="nav--list">
                     <a className="nav--link">Nos services</a>
