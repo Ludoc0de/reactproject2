@@ -2,8 +2,6 @@ import React from "react";
 
 function Card(props) {
     
-    let test = props.image
-    
     return(
         <div className="card--subsection" style={{opacity:1}}>
             
