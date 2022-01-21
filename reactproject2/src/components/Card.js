@@ -9,7 +9,7 @@ function Card(props) {
 
             <h2 className="card--title" name="test"> {props.title} </h2>
             <h3>{props.description}</h3>
-            <p>{props.website}</p>
+            <a href={props.website}>{props.website}</a>
             {/* <div className="card--buttons">
                 <button className="email" type="button">Email</button>
                 <button className="phone" type="button">Phone</button>
