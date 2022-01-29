@@ -1,4 +1,5 @@
 import './style.css'
+import React from "react"
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Card from './components/Card'
@@ -8,7 +9,7 @@ import data from './data'
 function App() {
   const cards = data.map(item => {
     return(
-      <Card
+      <Card 
         key={item.id} 
         image= {item.image}
         title={item.title}
@@ -30,12 +31,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header /> 
       <Hero />
       <section className='card'>
         {cards}
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
