@@ -1,11 +1,15 @@
 import React from "react";
 
 function Card(props) {
+    const styles = {
     
+        backgroundColor:"pink"
+    }
     return(
-        <div className="card--subsection" style={{opacity:1}}>
+        <section className="card--subsection" style={{opacity:1}}>
             
-            <img src="" className="card--img" />
+            <img className="card--img" />
+            <div style={styles}></div>
 
             <h2 className="card--title" name="test"> {props.title} </h2>
             <h3>{props.description}</h3>
@@ -56,7 +60,7 @@ function Card(props) {
                     </li>
                 }
             </ul>   
-        </div>
+        </section>
     )
 }
 
