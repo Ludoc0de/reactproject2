@@ -21,11 +21,13 @@ li {
 
 .nav--list {
   margin-left: 35px;
+  transition: 1s;
 }
 
 .nav--link {
   cursor: pointer;
   font-weight: bold;
+  transition: 1s;
 }
 
 .hero {
@@ -60,7 +62,7 @@ h1 {
 .hero--image {
   width: 40em;
   height: 45em;
-  background: url("./images/logo-black.png");
+  /* background: url("./images/logo-black.png"); */
   background-size: 35em;
   background-repeat: no-repeat;
   margin: 10em 0 0 -10em;
@@ -108,7 +110,7 @@ h1 {
 
   display: grid;
   grid-template-columns: auto auto auto auto;
-  /* height:100vh; */
+  height:98vh;
   width: 98vw;
   /* background-color: pink; */
 }
@@ -147,4 +149,11 @@ h1 {
 .card--contact__social:hover {
   transform: scale(0.8);
   transition: 1s;
+}
+
+footer > p {
+  margin: 0;
+  padding: 0 1em 0.5em 0;
+  text-align: right;
+  scroll-behavior: smooth;
 }
