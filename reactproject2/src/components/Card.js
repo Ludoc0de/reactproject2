@@ -6,7 +6,7 @@ function Card(props) {
         backgroundImage: `url(${process.env.PUBLIC_URL + props.image})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '5% 95%',
-        backgroundSize: '150px'
+        backgroundSize: '200px'
     }
     
     return(
