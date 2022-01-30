@@ -12,7 +12,7 @@ export default [
             fourth: ""
         },
         contact: {
-            first: "test@mail.com",
+            first: "mailto:test@mail.com",
             second: "",
             third: "#",
             fourth: "#",
@@ -32,8 +32,8 @@ export default [
             fourth: "Rénovation"
         },
         contact: {
-             first: "test@mail.com",
-            second: "010202",
+             first: "mailto:test@mail.com",
+            second: "tel:+594694010202",
             third: "#",
             fourth: "#",
             fifth: "",
