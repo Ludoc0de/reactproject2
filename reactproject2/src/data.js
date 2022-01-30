@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        image: "./images/logo.jpg",
+        image: "img/logo.jpg",
         title: "Neographe",
         description: "Création de site web",
         website: "www.neographe-digital.com",
