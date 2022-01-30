@@ -21,7 +21,7 @@ export default [
     },
     {
         id: 2,
-        image: "img/BL-HD.png",
+        image: "img/BL1.png",
         title: "BL Carrelage",
         description: "",
         website: "",
