@@ -22,14 +22,14 @@ export default [
     {
         id: 2,
         cardImg: "./images/logo-white.png",
-        title: "Entreprise N",
-        description: "entreprise",
+        title: "BL Carrelage",
+        description: "",
         website: "",
         skill: {
-            first: "1",
-            second: "2",
-            third: "3",
-            fourth: ""
+            first: "Carrelage",
+            second: "Maçonnerie",
+            third: "Peinture",
+            fourth: "Rénovation"
         },
         contact: {
              first: "test@mail.com",
