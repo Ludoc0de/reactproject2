@@ -1,23 +1,19 @@
 import React from "react";
 
 function Card(props) {
+   
     const styles = {
-    
-        backgroundColor:"pink"
+        backgroundImage: `url(${process.env.PUBLIC_URL + props.image})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: '5% 95%',
+        backgroundSize: '150px'
     }
+    
     return(
-        <section className="card--subsection" style={{opacity:1}}>
-            
-            <img className="card--img" />
-            <div style={styles}></div>
-
+        <section className="card--subsection" style={styles}>
             <h2 className="card--title" name="test"> {props.title} </h2>
             <h3>{props.description}</h3>
             <a href={props.website}>{props.website}</a>
-            {/* <div className="card--buttons">
-                <button className="email" type="button">Email</button>
-                <button className="phone" type="button">Phone</button>
-            </div> */}
             <h4>Compétences</h4>
             <ul className="card--skill">
                 <li>{props.firstSkill}</li>
