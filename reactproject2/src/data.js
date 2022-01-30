@@ -1,14 +1,14 @@
 export default [
     {
         id: 1,
-        image: "img/logo.jpg",
+        image: "img/logo-transp.png",
         title: "Neographe",
         description: "Création de site web",
         website: "www.neographe-digital.com",
         skill: {
-            first: "Création de siteweb",
+            first: "Transformation Digital",
             second: "Création de logo",
-            third: "Réponse sous 48h",
+            third: "Création de siteweb",
             fourth: ""
         },
         contact: {
@@ -21,7 +21,7 @@ export default [
     },
     {
         id: 2,
-        cardImg: "./images/logo-white.png",
+        image: "img/BL-HD.png",
         title: "BL Carrelage",
         description: "",
         website: "",
