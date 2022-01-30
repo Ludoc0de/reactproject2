@@ -1,6 +1,4 @@
 import React from "react"
-// import HeroImg from "../images/DrawKit.png"
-
 
 function Hero(){
     return(
