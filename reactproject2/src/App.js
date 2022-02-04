@@ -7,6 +7,13 @@ import Footer from './components/Footer'
 import data from './data'
 
 function App() {
+
+  const[page, setPage]= React.useState(0)
+
+  function toggle () {
+    console.log("Yes")
+  }
+
   const cards = data.map(item => {
     return(
       <Card 
@@ -31,9 +38,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header /> 
+      <Header handleClick={toggle} /> 
       <Hero />
-      <section className='card'>
+      <section className='card' style={{display:""}}>
         {cards}
       </section>
       <Footer />
