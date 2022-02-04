@@ -3,10 +3,10 @@ export default [
         id: 1,
         image: "img/logo-transp.png",
         title: "Neographe",
-        description: "Création de site web",
+        description: "Transformation digital",
         website: "www.neographe-digital.com",
         skill: {
-            first: "Transformation Digital",
+            first: "Accompagnement digital",
             second: "Création de logo",
             third: "Création de siteweb",
             fourth: ""
@@ -14,7 +14,7 @@ export default [
         contact: {
             first: "mailto:test@mail.com",
             second: "",
-            third: "#",
+            third: "",
             fourth: "#",
             fifth: "#",
         },
@@ -23,7 +23,7 @@ export default [
         id: 2,
         image: "img/BL1.png",
         title: "BL Carrelage",
-        description: "",
+        description: "Entreprise de Rénovation",
         website: "",
         skill: {
             first: "Carrelage",
@@ -32,7 +32,7 @@ export default [
             fourth: "Rénovation"
         },
         contact: {
-             first: "mailto:test@mail.com",
+            first: "mailto:test@mail.com",
             second: "tel:+594694010202",
             third: "#",
             fourth: "#",
