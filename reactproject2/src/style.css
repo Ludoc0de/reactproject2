@@ -27,14 +27,21 @@ li {
 .nav--link {
   cursor: pointer;
   font-weight: bold;
-  transition: 1s;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+.nav--link:hover {
+  color: #ff142d;
+  transition: 0.5s;
 }
 
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height:90vh; */
+  height:90vh;
   width: 98vw;
 }
 
