@@ -1,8 +1,14 @@
 import React from "react"
 
-function Hero(){
+function Hero(props){
+    
+    const popHero = {
+        opacity: props.emerge ? "1": "0",
+        transition: "1s ease-in 0.5s"
+    }
+
     return(
-        <section className="hero" style={{opacity:1}}>
+        <section className="hero" style={popHero}>
             <span className="hero--subsection">
                 <h1 className="hero--title">Carte de visite digital</h1>
                 <p className="hero--text">Créer votre carte digital professionel</p> 
