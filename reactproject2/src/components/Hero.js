@@ -12,7 +12,6 @@ function Hero(props){
             <span className="hero--subsection">
                 <h1 className="hero--title">Carte de visite digital</h1>
                 <p className="hero--text">Créer votre carte digital professionel</p> 
-                <button>Contact</button>
             </span>
             <div className="hero--image"></div>
             <ul className="hero--unlist">
