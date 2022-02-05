@@ -41,6 +41,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -1em;
   height:90vh;
   width: 98vw;
 }
@@ -58,13 +59,13 @@ h1 {
   margin:0;
 }
 
-.hero--subsection > button {
+/* .hero--subsection > button {
   width: 10em;
   height: 3em;
   border-radius: 1em;
   border: black 1px solid;
   background-color: transparent;
-}
+} */
 
 .hero--image {
   width: 40em;
@@ -73,7 +74,7 @@ h1 {
   background: url("./components/images/logo-black.png");
   background-size: 35em;
   background-repeat: no-repeat;
-  margin: 10em 0 0 -10em;
+  margin: 12em 0 0 -10em;
 }
 
 .hero--text {
