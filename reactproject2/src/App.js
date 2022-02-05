@@ -8,10 +8,15 @@ import data from './data'
 
 function App() {
 
-  const[page, setPage]= React.useState(0)
+  const[page, setPage]= React.useState(true)
 
-  function toggle () {
-    console.log("Yes")
+  function toggle() {
+    setPage(prevPage => !prevPage)
+  }
+
+  const cardAppear = {
+    opacity: page ? "0": "1",
+    transition: "1s ease-in 0.5s"
   }
 
   const cards = data.map(item => {
@@ -39,8 +44,8 @@ function App() {
   return (
     <div className="App">
       <Header handleClick={toggle} /> 
-      <Hero />
-      <section className='card' style={{display:""}}>
+      <Hero emerge={page}/>
+      <section className='card' style={cardAppear}>
         {cards}
       </section>
       <Footer />
