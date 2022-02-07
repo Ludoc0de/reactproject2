@@ -1,4 +1,5 @@
 import React from "react"
+import heroImage from "./images/logo-black.png"
 
 function Hero(props){
     
@@ -13,7 +14,7 @@ function Hero(props){
                 <h1 className="hero--title">Carte de visite digital</h1>
                 <p className="hero--text">Créer votre carte digital professionel</p> 
             </span>
-            <div className="hero--image"></div>
+            <img className="hero--image" src={heroImage} />
             <ul className="hero--unlist">
                 <li className="hero--list">
                     <a href="#">
