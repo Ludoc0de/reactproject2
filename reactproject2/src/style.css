@@ -68,7 +68,9 @@ h1 {
 }
 
 .hero--unlist {
-  margin: 22.5em 0 0 -12em;
+  position: absolute;
+  right: 40em;
+  top: 37.5em;
 }
 
 .hero--list {
