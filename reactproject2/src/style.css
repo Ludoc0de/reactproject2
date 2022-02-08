@@ -172,24 +172,19 @@ footer > p {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   /* work on it */
   .hero--image {
-    /* display: none; */
-    /* width: 40em;
-    height: 45em; */
-    background: url("./components/images/logo-black.png") 25% 75% ;
-    /* background-size: 35em; */
-    background-size: 10em; 
-    background-repeat: no-repeat;
-    /* margin: 12em 0 0 -10em; */
-    margin: 0em 0 0 0em;
-    /* padding: 0em 0 0 0; */
+    position: absolute;
+    left: 5em;
+    top: 20em;
+    width: 25em;
   }
 
 .hero--text {
-  font-size: 2em;
+  font-size: 1.5em;
+  width: 10em;
 }
 
 .hero--unlist {
