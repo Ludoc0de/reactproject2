@@ -177,9 +177,9 @@ footer > p {
   /* work on it */
   .hero--image {
     position: absolute;
-    left: 5em;
-    top: 20em;
-    width: 25em;
+    left: 0em;
+    top: 30em;
+    width: 15em;
   }
 
 .hero--text {
@@ -188,7 +188,9 @@ footer > p {
 }
 
 .hero--unlist {
-  margin: 22.5em 0 0 -12em;
+  position: absolute;
+  right: 8em;
+  top: 33em;
 }
 
 .hero--list {
