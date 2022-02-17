@@ -10,7 +10,7 @@ function Card(props) {
     }
     
     return(
-        <section className="card--subsection" style={styles}>
+        <section className="card--subsection" /*style={styles}*/>
             <h2 className="card--title" name="test"> {props.title} </h2>
             <h3>{props.description}</h3>
             <a href={props.website}>{props.website}</a>
@@ -55,7 +55,8 @@ function Card(props) {
                         </a>
                     </li>
                 }
-            </ul>   
+            </ul>
+             <img src={props.image} class="card--img"/>   
         </section>
     )
 }
