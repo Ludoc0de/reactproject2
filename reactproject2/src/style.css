@@ -89,7 +89,6 @@ h1 {
   top: 5em;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  /* height:98vh; */
   width: 98vw;
 }
 
@@ -104,7 +103,9 @@ h1 {
 }
 
 .card--img {
-  width: 100%;
+  width: 50%;
+  position: relative;
+  bottom: 8em;
 }
 
 .card--skill, .card--contact {
@@ -193,19 +194,19 @@ footer {
 }
 
 
-  /*None pour l'instant*/
+  /*Work on it*/
   .card {
     position: absolute;
     top: 15em;
     display: grid;
-    grid-template-columns: 1fr;
-    height: 100%;
+    /* grid-template-columns: 1fr; */
     width: none;
   }
 
+
   .card--subsection {
-    width: 10em;
-    height: 15em;
+    width: 15em;
+    height: 20em;
     margin: 1em;
     padding-left: 0.5em;
   }
@@ -215,9 +216,12 @@ footer {
     font-size: 10px;
   }
   
-  .card--img {
-    width: 1em;
-  }
+ .card--img {
+  width: 50%;
+  position: relative;
+  bottom: 8em;
+}
+
 
   .card--skill, .card--contact {
     padding: 0;
