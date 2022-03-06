@@ -87,7 +87,6 @@ h1 {
 }
 
 /*card design*/
-
 .card {
   position: absolute; 
   display: grid;
@@ -136,9 +135,8 @@ h1 {
 
 footer {
   position: absolute;
-  bottom: -2em;
-  right: 2em;
-  margin: 1em;
+  bottom: 0em;
+  right: 1em;
   text-align: right;
 } 
 
