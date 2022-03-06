@@ -247,8 +247,13 @@ footer {
     padding-left: 0.5em;
   }
 
+  .card--contact {
+    margin-left: -2.5em;
+  }
+
   .card--title {
-    font-size: 10px;
+    font-size: 18px;
+    margin: 0;
   }
   
   .card--img {
