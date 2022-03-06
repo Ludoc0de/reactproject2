@@ -6,6 +6,11 @@ function Header(props) {
     return(
         <nav>
             <img className="nav--logo" src={Logo} />
+            <section className="container">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+            </section>
             <ul>
                 <li className="nav--list">
                     <a className="nav--link" onClick={props.handleClick}>Cartes de visite</a>
@@ -17,7 +22,7 @@ function Header(props) {
                     <a className="nav--link">Contact</a>
                 </li>
             </ul>
-            
+
         </nav>
     )
 }
