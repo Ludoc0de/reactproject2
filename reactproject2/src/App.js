@@ -9,9 +9,14 @@ import data from './data'
 function App() {
 
   const[page, setPage]= React.useState(true)
+  const[menu, setMenu]= React.useState(true)
 
   function toggle() {
     setPage(prevPage => !prevPage)
+  }
+
+  function Menu() {
+    setMenu(prevMenu => !prevMenu)
   }
 
   const cardAppear = {
@@ -43,7 +48,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header handleClick={toggle} /> 
+      <Header handleClick={toggle} menuClick={Menu} burger={menu}/> 
       <Hero emerge={page}/>
       <section className='card' style={cardAppear}>
         {cards}
