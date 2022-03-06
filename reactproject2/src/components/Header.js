@@ -11,7 +11,7 @@ function Header(props) {
     return(
         <nav>
             <img className="nav--logo" src={Logo} />
-            <section className="container" onClick={props.menuClick}>
+            <section className={props.burger ? "container" : "container change"} onClick={props.menuClick}>
                 <div className="bar1"></div>
                 <div className="bar2"></div>
                 <div className="bar3"></div>
