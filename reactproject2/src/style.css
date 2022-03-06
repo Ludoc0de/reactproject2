@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 nav {
   display: flex;
   padding: 5px 20px;
@@ -42,7 +45,8 @@ li {
   justify-content: center;
   align-items: center;
   margin-top: -1em;
-  height:90vh;
+  margin-bottom: 2%;
+  height:100vh;
   width: 98vw;
 }
 
@@ -85,17 +89,17 @@ h1 {
 /*card design*/
 
 .card {
-  position: absolute;
-  top: 5em;
+  position: absolute; 
   display: grid;
   grid-template-columns: auto auto auto auto;
   width: 98vw;
+  height: 90vh;
 }
 
 .card--subsection {
-  width: 20em;
-  height: 30em;
-  margin: 2em;
+  width: 18em;
+  height: 25em;
+  margin: 1em;
   padding-left: 1em;
   border: 1px black solid;
   border-radius: 1em;
@@ -105,15 +109,19 @@ h1 {
 .card--img {
   width: 50%;
   position: relative;
-  bottom: 8em;
+  bottom: 6.5em;
 }
 
 .card--skill, .card--contact {
   padding: 0;
 }
 
+.card--contact {
+  margin-top: -1.5em;
+}
+
 .card--contact > li {
-  padding: 0 0em 0.7em 15em;
+  padding: 0 0 0.7em 15em;
   transition: 1s;
 }
 
@@ -128,9 +136,11 @@ h1 {
 
 footer {
   position: absolute;
-  bottom: 0.25em;
+  bottom: -2em;
   right: 2em;
-}
+  margin: 1em;
+  text-align: right;
+} 
 
 /* SMARTPHONE */
 
@@ -154,7 +164,6 @@ footer {
     margin: 15px 0;
     transition: 1s;
   }
-
 
   .hero {   
     margin: -1em 0 0 1em;
@@ -193,16 +202,15 @@ footer {
   font-size: 2em;
 }
 
-
-  /*Work on it*/
+  /*Work on it Changer ajouter display: none et opacity */
   .card {
-    position: absolute;
-    top: 15em;
-    display: grid;
+    /* display: none; */
+    /* top: 15em; */
+    /* display: none; */
+    /* display: grid; */
     /* grid-template-columns: 1fr; */
-    width: none;
+    width: auto;
   }
-
 
   .card--subsection {
     width: 15em;
@@ -222,7 +230,6 @@ footer {
   bottom: 8em;
 }
 
-
   .card--skill, .card--contact {
     padding: 0;
   }
@@ -241,10 +248,11 @@ footer {
     transition: 1s;
   }
 
-
-  /* footer {
+  footer {
     position: absolute;
     bottom: 0em;
     right: 2em;
-  } */
+    width: 100%;
+    background-color: pink;
+  }
 }
