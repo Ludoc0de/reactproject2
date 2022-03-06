@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
 }
+
 nav {
   display: flex;
   padding: 5px 20px;
@@ -142,7 +143,11 @@ footer {
 
 /* SMARTPHONE */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
+  body {
+    overflow: scroll;
+  }
+
   nav {
     flex-direction: column;
     padding: 5px 0;
@@ -155,11 +160,14 @@ footer {
 
   nav > ul {
     flex-direction: column;
-    padding-left: 15px;
+    align-items: flex-end;
+    width: 90%;
+    margin-top: -3.5em;
+    z-index: 5;
   }
 
   .nav--list {
-    margin: 15px 0;
+    margin: 15px 10px;
     transition: 1s;
   }
 
@@ -172,7 +180,7 @@ footer {
   h1 {
     font-size: 55px;
   }
-  /* work on it */
+  
   .hero--image {
     position: absolute;
     left: 0em;
@@ -180,34 +188,19 @@ footer {
     width: 15em;
   }
 
-.hero--text {
-  font-size: 1.5em;
-  width: 10em;
-}
+  .hero--text {
+    font-size: 1.5em;
+    width: 10em;
+  }
 
-.hero--unlist {
-  position: absolute;
-  right: 8em;
-  top: 33em;
-}
+  .hero--unlist {
+    position: absolute;
+    right: 8em;
+    top: 33em;
+  }
 
-.hero--list {
-  margin-top: 1.5em;
-}
-
-.fab, .far, .fas {
-  color: black;
-  font-size: 2em;
-}
-
-  /*Work on it Changer ajouter display: none et opacity */
-  .card {
-    /* display: none; */
-    /* top: 15em; */
-    /* display: none; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
-    width: auto;
+  .card{
+    grid-template-columns: 1fr;
   }
 
   .card--subsection {
@@ -217,40 +210,19 @@ footer {
     padding-left: 0.5em;
   }
 
-
   .card--title {
     font-size: 10px;
   }
   
- .card--img {
-  width: 50%;
-  position: relative;
-  bottom: 8em;
-}
-
-  .card--skill, .card--contact {
-    padding: 0;
+  .card--img {
+    bottom: 5.5em;
   }
 
-  .card--contact > li {
-    padding: 0 0em 0.7em 15em;
-    transition: 1s;
-  }
-
-  .card--contact__social {
-    transition: 1s;
-  }
-
-  .card--contact__social:hover {
-    transform: scale(0.8);
-    transition: 1s;
+  .card--contact {
+    margin-top: -5em;
   }
 
   footer {
-    position: absolute;
-    bottom: 0em;
-    right: 2em;
-    width: 100%;
-    background-color: pink;
+    display: none;
   }
 }
