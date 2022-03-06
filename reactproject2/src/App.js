@@ -15,8 +15,8 @@ function App() {
   }
 
   const cardAppear = {
-    opacity: page ? "0": "1",
-    transition: "1s ease-in 0.5s"
+    top: page ? "100%" :"8%",
+    transition: "0.5s ease-in 0.5s"
   }
 
   const cards = data.map(item => {
