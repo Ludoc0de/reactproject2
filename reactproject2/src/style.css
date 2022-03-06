@@ -198,8 +198,6 @@ footer {
     align-items: flex-end;
     z-index: 5;
     position: absolute;
-    right: -40%;
-    /*onClick add right to 0%*/
     top: -1em;
   }
 
