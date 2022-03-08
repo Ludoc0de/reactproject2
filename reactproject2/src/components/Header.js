@@ -4,7 +4,7 @@ import Logo from "./images/default-monochrome-black.svg"
 function Header(props) {
 
     const burgerMenu = {
-        right: props.burger ? "-40%" :"0%",
+        right: props.burger ? "-50%" :"1%",
         transition: "0.5s ease-in 0.5s"
     }
 
