@@ -206,7 +206,6 @@ footer {
     z-index: 5;
     position: absolute;
     top: 3em;
-    border: 0.5px solid black;
     border-radius: 1em;
     background-color: white;
   }
