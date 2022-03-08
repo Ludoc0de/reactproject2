@@ -56,7 +56,7 @@ function Card(props) {
                     </li>
                 }
             </ul>
-             <img src={props.image} class="card--img"/>   
+             <img src={props.image} className="card--img"/>   
         </section>
     )
 }
