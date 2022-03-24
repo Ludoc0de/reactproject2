@@ -21,10 +21,10 @@ function Header(props) {
                     <a className="nav--link" onClick={props.handleClick}>Cartes de visite</a>
                 </li>
                 <li className="nav--list">
-                    <a className="nav--link">Nos services</a>
+                    <a className="nav--link" href="https://www.neographe-digital.com/" target="_blank">Nos services</a>
                 </li>
                 <li className="nav--list">
-                    <a className="nav--link">Contact</a>
+                    <a className="nav--link" href="https://formsubmit.co/el/hohepu" target="_blank">Contact</a>
                 </li>
             </ul>
 
