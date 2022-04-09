@@ -1,0 +1,278 @@
+body {
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--logo {
+  max-width: 200px;
+  padding: 10px 10px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+}
+
+.nav--list {
+  margin-left: 35px;
+  transition: 1s;
+}
+
+.nav--link {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.5s;
+}
+
+.nav--link:hover {
+  color: #ff142d;
+  transition: 0.5s;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1em;
+  margin-bottom: 2%;
+  height:100vh;
+  width: 98vw;
+}
+
+.hero--subsection {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 70px;
+  margin:0;
+}
+
+.hero--image {
+  position: absolute;
+  right: 10em;
+  top: 15em;
+  width: 35em;
+}
+
+.hero--text {
+  font-size: 2em;
+}
+
+.hero--unlist {
+  position: absolute;
+  right: 40em;
+  top: 37.5em;
+}
+
+.hero--list {
+  margin-top: 1.5em;
+}
+
+.fab, .far, .fas {
+  color: black;
+  font-size: 2em;
+}
+
+/*card design*/
+.card {
+  position: absolute; 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 98vw;
+  height: 90vh;
+}
+
+.card--subsection {
+  width: 18em;
+  height: 25em;
+  margin: 1em;
+  padding-left: 1em;
+  border: 1px black solid;
+  border-radius: 1em;
+  box-shadow: black 1em 1em 2em;
+}
+
+.card--img {
+  width: 50%;
+  position: relative;
+  bottom: 6.5em;
+}
+
+.card--skill, .card--contact {
+  padding: 0;
+}
+
+.card--contact {
+  margin-top: -1.5em;
+}
+
+.card--contact > li {
+  padding: 0 0 0.7em 15em;
+  transition: 1s;
+}
+
+.card--contact__social {
+  transition: 1s;
+}
+
+.card--contact__social:hover {
+  transform: scale(0.8);
+  transition: 1s;
+}
+
+footer {
+  position: absolute;
+  bottom: 0em;
+  right: 1em;
+  text-align: right;
+} 
+
+/* SMARTPHONE */
+
+@media screen and (max-width: 650px) {
+  body {
+    overflow: scroll;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 5px 0;
+    align-items: flex-start;
+  }
+
+  .nav--logo {
+    max-width: 150px;
+  }
+
+  /*work on it burger*/
+  .container {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ff142d;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .bar2 {
+    width: 25px;
+    margin-left: 10px;
+  }
+
+  .change {
+    position: absolute;
+    top: 1em;
+    /* right: 8em; */
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  /*work on it burger*/
+
+  nav > ul {
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 5;
+    position: absolute;
+    top: 3em;
+    border-radius: 1em;
+    background-color: white;
+  }
+
+  .nav--list {
+    margin: 15px 10px;
+    transition: 1s;
+  }
+
+  .hero {   
+    margin: -1em 0 0 1em;
+    height: 100%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 55px;
+    margin-top: 1em;
+  }
+  
+  .hero--image {
+    position: absolute;
+    left: 0em;
+    top: 25em;
+    width: 15em;
+  }
+
+  .hero--text {
+    font-size: 1.5em;
+    width: 10em;
+  }
+
+  .hero--unlist {
+    position: absolute;
+    right: 8em;
+    top: 28em;
+  }
+
+  .card{
+    grid-template-columns: 1fr;
+  }
+
+  .card--subsection {
+    width: 15em;
+    height: 20em;
+    margin: 1em;
+    padding-left: 0.5em;
+  }
+
+  .card--contact {
+    margin-left: -2.5em;
+  }
+
+  .card--title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card--img {
+    bottom: 5.5em;
+  }
+
+  .card--contact {
+    margin-top: -5em;
+  }
+
+  footer {
+    display: none;
+  }
+}
